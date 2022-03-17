@@ -10,6 +10,13 @@ let lista = document.createElement('ul')
 function addToList(list, content) {
 	let item = document.createElement('li')
 	item.innerText = content
+	item.addEventListener('click', event => {
+		if( item.className === '' ) {
+			item.className = 'selected'
+		} else {
+			item.className = ''
+		}
+	})
 	list.appendChild(item)
 }
 for( let i=1; i<=10; i++ ) {
