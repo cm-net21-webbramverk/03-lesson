@@ -1,0 +1,17 @@
+body {
+	background-color: #B8D4F6;
+}
+section {
+	border: 2px solid #134F98;
+	border-radius: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em 2em;
+}
+.modified-border {
+	border-color: #3B952E;
+	background-color: #84F38F;
+}
+
+.selected {
+	background-color: #83C3F0;
+}
