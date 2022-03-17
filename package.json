@@ -1,0 +1,12 @@
+{
+  "name": "03-lesson",
+  "version": "1.0.0",
+  "description": "JavaScript DOM manipulation",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": ["javascript", "DOM", "vanilla"],
+  "author": "David Andersson",
+  "license": "ISC"
+}
